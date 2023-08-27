@@ -1,0 +1,55 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title{
+    color: black;
+    font-size: 45px ;
+}
+
+
+
+.text-primary{
+    color: chocolate;
+}
+
+#class{ font-size: 45px;
+    font-weight: 800;
+    color: black;
+}
+
+
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+ 
+
+nav li {
+    list-style: none;
+margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+
+.btn-primary{
+    border-radius: 5px;
+    background-color: darkorange;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
