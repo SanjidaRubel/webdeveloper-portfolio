@@ -109,7 +109,10 @@ margin-bottom: 0px;
 
 /* main section style */
 
-
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section style */
 .about{
@@ -117,4 +120,13 @@ margin-bottom: 0px;
     border-radius: 10px;
     background-color: bisque;
     margin: 130px 0px;
+}
+
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
